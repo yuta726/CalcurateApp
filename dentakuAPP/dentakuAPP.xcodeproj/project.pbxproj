@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF8E3352A4099B30057894A /* dentakuAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8E3342A4099B30057894A /* dentakuAPPApp.swift */; };
+		CAF8E3372A4099B30057894A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8E3362A4099B30057894A /* ContentView.swift */; };
+		CAF8E3392A4099B60057894A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF8E3382A4099B60057894A /* Assets.xcassets */; };
+		CAF8E33D2A4099B60057894A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF8E33C2A4099B60057894A /* Preview Assets.xcassets */; };
+		CAF8E3472A4099B60057894A /* dentakuAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8E3462A4099B60057894A /* dentakuAPPTests.swift */; };
+		CAF8E3512A4099B60057894A /* dentakuAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8E3502A4099B60057894A /* dentakuAPPUITests.swift */; };
+		CAF8E3532A4099B60057894A /* dentakuAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8E3522A4099B60057894A /* dentakuAPPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF8E3432A4099B60057894A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF8E3292A4099B30057894A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF8E3302A4099B30057894A;
+			remoteInfo = dentakuAPP;
+		};
+		CAF8E34D2A4099B60057894A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF8E3292A4099B30057894A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF8E3302A4099B30057894A;
+			remoteInfo = dentakuAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF8E3312A4099B30057894A /* dentakuAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dentakuAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF8E3342A4099B30057894A /* dentakuAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentakuAPPApp.swift; sourceTree = "<group>"; };
+		CAF8E3362A4099B30057894A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAF8E3382A4099B60057894A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF8E33A2A4099B60057894A /* dentakuAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dentakuAPP.entitlements; sourceTree = "<group>"; };
+		CAF8E33C2A4099B60057894A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF8E3422A4099B60057894A /* dentakuAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dentakuAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF8E3462A4099B60057894A /* dentakuAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentakuAPPTests.swift; sourceTree = "<group>"; };
+		CAF8E34C2A4099B60057894A /* dentakuAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dentakuAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF8E3502A4099B60057894A /* dentakuAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentakuAPPUITests.swift; sourceTree = "<group>"; };
+		CAF8E3522A4099B60057894A /* dentakuAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentakuAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF8E32E2A4099B30057894A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E33F2A4099B60057894A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E3492A4099B60057894A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF8E3282A4099B30057894A = {
+			isa = PBXGroup;
+			children = (
+				CAF8E3332A4099B30057894A /* dentakuAPP */,
+				CAF8E3452A4099B60057894A /* dentakuAPPTests */,
+				CAF8E34F2A4099B60057894A /* dentakuAPPUITests */,
+				CAF8E3322A4099B30057894A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF8E3322A4099B30057894A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8E3312A4099B30057894A /* dentakuAPP.app */,
+				CAF8E3422A4099B60057894A /* dentakuAPPTests.xctest */,
+				CAF8E34C2A4099B60057894A /* dentakuAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF8E3332A4099B30057894A /* dentakuAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8E3342A4099B30057894A /* dentakuAPPApp.swift */,
+				CAF8E3362A4099B30057894A /* ContentView.swift */,
+				CAF8E3382A4099B60057894A /* Assets.xcassets */,
+				CAF8E33A2A4099B60057894A /* dentakuAPP.entitlements */,
+				CAF8E33B2A4099B60057894A /* Preview Content */,
+			);
+			path = dentakuAPP;
+			sourceTree = "<group>";
+		};
+		CAF8E33B2A4099B60057894A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8E33C2A4099B60057894A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF8E3452A4099B60057894A /* dentakuAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8E3462A4099B60057894A /* dentakuAPPTests.swift */,
+			);
+			path = dentakuAPPTests;
+			sourceTree = "<group>";
+		};
+		CAF8E34F2A4099B60057894A /* dentakuAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8E3502A4099B60057894A /* dentakuAPPUITests.swift */,
+				CAF8E3522A4099B60057894A /* dentakuAPPUITestsLaunchTests.swift */,
+			);
+			path = dentakuAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF8E3302A4099B30057894A /* dentakuAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF8E3562A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPP" */;
+			buildPhases = (
+				CAF8E32D2A4099B30057894A /* Sources */,
+				CAF8E32E2A4099B30057894A /* Frameworks */,
+				CAF8E32F2A4099B30057894A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dentakuAPP;
+			productName = dentakuAPP;
+			productReference = CAF8E3312A4099B30057894A /* dentakuAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF8E3412A4099B60057894A /* dentakuAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF8E3592A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPPTests" */;
+			buildPhases = (
+				CAF8E33E2A4099B60057894A /* Sources */,
+				CAF8E33F2A4099B60057894A /* Frameworks */,
+				CAF8E3402A4099B60057894A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF8E3442A4099B60057894A /* PBXTargetDependency */,
+			);
+			name = dentakuAPPTests;
+			productName = dentakuAPPTests;
+			productReference = CAF8E3422A4099B60057894A /* dentakuAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF8E34B2A4099B60057894A /* dentakuAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF8E35C2A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPPUITests" */;
+			buildPhases = (
+				CAF8E3482A4099B60057894A /* Sources */,
+				CAF8E3492A4099B60057894A /* Frameworks */,
+				CAF8E34A2A4099B60057894A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF8E34E2A4099B60057894A /* PBXTargetDependency */,
+			);
+			name = dentakuAPPUITests;
+			productName = dentakuAPPUITests;
+			productReference = CAF8E34C2A4099B60057894A /* dentakuAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF8E3292A4099B30057894A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAF8E3302A4099B30057894A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CAF8E3412A4099B60057894A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAF8E3302A4099B30057894A;
+					};
+					CAF8E34B2A4099B60057894A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAF8E3302A4099B30057894A;
+					};
+				};
+			};
+			buildConfigurationList = CAF8E32C2A4099B30057894A /* Build configuration list for PBXProject "dentakuAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF8E3282A4099B30057894A;
+			productRefGroup = CAF8E3322A4099B30057894A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF8E3302A4099B30057894A /* dentakuAPP */,
+				CAF8E3412A4099B60057894A /* dentakuAPPTests */,
+				CAF8E34B2A4099B60057894A /* dentakuAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF8E32F2A4099B30057894A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8E33D2A4099B60057894A /* Preview Assets.xcassets in Resources */,
+				CAF8E3392A4099B60057894A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E3402A4099B60057894A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E34A2A4099B60057894A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF8E32D2A4099B30057894A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8E3372A4099B30057894A /* ContentView.swift in Sources */,
+				CAF8E3352A4099B30057894A /* dentakuAPPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E33E2A4099B60057894A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8E3472A4099B60057894A /* dentakuAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8E3482A4099B60057894A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8E3512A4099B60057894A /* dentakuAPPUITests.swift in Sources */,
+				CAF8E3532A4099B60057894A /* dentakuAPPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF8E3442A4099B60057894A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF8E3302A4099B30057894A /* dentakuAPP */;
+			targetProxy = CAF8E3432A4099B60057894A /* PBXContainerItemProxy */;
+		};
+		CAF8E34E2A4099B60057894A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF8E3302A4099B30057894A /* dentakuAPP */;
+			targetProxy = CAF8E34D2A4099B60057894A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAF8E3542A4099B60057894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF8E3552A4099B60057894A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CAF8E3572A4099B60057894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dentakuAPP/dentakuAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dentakuAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF8E3582A4099B60057894A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dentakuAPP/dentakuAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dentakuAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF8E35A2A4099B60057894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dentakuAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dentakuAPP";
+			};
+			name = Debug;
+		};
+		CAF8E35B2A4099B60057894A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dentakuAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dentakuAPP";
+			};
+			name = Release;
+		};
+		CAF8E35D2A4099B60057894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dentakuAPP;
+			};
+			name = Debug;
+		};
+		CAF8E35E2A4099B60057894A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yuta.dentakuAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dentakuAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF8E32C2A4099B30057894A /* Build configuration list for PBXProject "dentakuAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF8E3542A4099B60057894A /* Debug */,
+				CAF8E3552A4099B60057894A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF8E3562A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF8E3572A4099B60057894A /* Debug */,
+				CAF8E3582A4099B60057894A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF8E3592A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF8E35A2A4099B60057894A /* Debug */,
+				CAF8E35B2A4099B60057894A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF8E35C2A4099B60057894A /* Build configuration list for PBXNativeTarget "dentakuAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF8E35D2A4099B60057894A /* Debug */,
+				CAF8E35E2A4099B60057894A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF8E3292A4099B30057894A /* Project object */;
+}
